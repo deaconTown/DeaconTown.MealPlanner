@@ -25,7 +25,7 @@ namespace DeaconTown.MealPlanner.Web
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
-                configuration.RootPath = "DeaconTown.MealPlanner.React";
+                configuration.RootPath = "DeaconTown.MealPlanner.React.Practice";
             });
         }
 
@@ -56,7 +56,7 @@ namespace DeaconTown.MealPlanner.Web
 
             app.UseSpa(spa =>
             {
-                spa.Options.SourcePath = "DeaconTown.MealPlanner.React";
+                spa.Options.SourcePath = "DeaconTown.MealPlanner.React.Practice";
 
                 if (env.IsDevelopment())
                 {

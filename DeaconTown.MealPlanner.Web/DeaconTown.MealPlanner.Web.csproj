@@ -22,9 +22,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="DeaconTown.MealPlanner.React\package-lock.json" />
-    <None Include="DeaconTown.MealPlanner.React\package.json" />
-    <None Include="DeaconTown.MealPlanner.React\public\manifest.json" />
+    <None Include="DeaconTown.MealPlanner.React.Practice\package-lock.json" />
+    <None Include="DeaconTown.MealPlanner.React.Practice\package.json" />
+    <None Include="DeaconTown.MealPlanner.React.Practice\public\manifest.json" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
